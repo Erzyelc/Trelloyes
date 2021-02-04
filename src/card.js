@@ -1,7 +1,7 @@
 import React from 'react';
 import './card.css';
 
-function card(props) {
+export default function card(props) {
   return (
     <div className='Card'>
       <button
@@ -14,5 +14,3 @@ function card(props) {
     </div>
   )
 }
-
-export default card;
